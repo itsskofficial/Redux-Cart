@@ -12,6 +12,9 @@ const cartSlice = createSlice({
             const existingItem = state.items.find(item => item.id === newItem.id)
             if (!existingItem) {
                 state.items.push({
+                    id: newItem.id,
+                    price: newItem.price,
+                    quantity: 1,
                     
                 })
             }
