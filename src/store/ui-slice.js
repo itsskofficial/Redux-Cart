@@ -1,3 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-uiSlice=
+uiSlice=createSlice({
+    name:'ui',
+    initialState=
+})
