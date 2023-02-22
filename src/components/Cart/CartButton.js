@@ -2,7 +2,7 @@ import classes from './CartButton.module.css';
 
 const CartButton = (props) => {
   const toggleCartHandler = () => {
-    dispatchEven
+    dispatc
   }
   return (
     <button className={classes.button} onClick={toggleCartHandler}>
