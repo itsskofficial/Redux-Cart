@@ -1,6 +1,9 @@
 import classes from './CartButton.module.css';
 
 const CartButton = (props) => {
+  const toggleCartHandler = () => {
+    
+  }
   return (
     <button className={classes.button} onClick={toggleCartHandler}>
       <span>My Cart</span>
