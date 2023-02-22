@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-uiSlice=createSlice({
+const uiSlice=createSlice({
     name:'ui',
     initialState: { showCart: false },
     reducers: {
