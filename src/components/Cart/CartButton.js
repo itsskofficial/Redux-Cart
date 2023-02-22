@@ -1,6 +1,6 @@
 import classes from './CartButton.module.css';
 import {useDispatch}
-import reac
+import
 
 const CartButton = (props) => {
   const toggleCartHandler = () => {
