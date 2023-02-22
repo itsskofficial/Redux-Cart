@@ -4,6 +4,8 @@ uiSlice=createSlice({
     name:'ui',
     initialState: { showCart: false },
     reducers: {
-        toggleCart:
+        toggle(state) {
+            state.
+        }
     }
 })
