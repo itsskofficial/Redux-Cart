@@ -5,7 +5,7 @@ dispatch=useDispatch()
 
 const CartButton = (props) => {
   const toggleCartHandler = () => {
-    dispatc
+    dispatch()
   }
   return (
     <button className={classes.button} onClick={toggleCartHandler}>
