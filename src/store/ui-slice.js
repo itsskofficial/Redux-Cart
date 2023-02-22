@@ -5,7 +5,7 @@ uiSlice=createSlice({
     initialState: { showCart: false },
     reducers: {
         toggle(state) {
-            state.
+            state.showCart=!state.showCart
         }
     }
 })
