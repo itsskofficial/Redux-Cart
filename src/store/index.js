@@ -1,1 +1,3 @@
 import configureStore}
+
+store=configureStor
