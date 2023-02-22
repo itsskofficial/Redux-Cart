@@ -20,7 +20,7 @@ const cartSlice = createSlice({
                 })
             }
             else {
-                ssssssssss
+                
             }
         }
     }
