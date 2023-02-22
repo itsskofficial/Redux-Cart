@@ -1,5 +1,5 @@
 
 
 store = configureStore({
-    reducer:{'ui'}
+    reducer:{'ui':uiSlice.}
 })
