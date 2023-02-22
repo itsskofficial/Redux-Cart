@@ -1,3 +1,5 @@
 
 
-store=configureStore(red)
+store = configureStore({
+    reducer:{'ui'}
+})
