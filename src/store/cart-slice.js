@@ -19,6 +19,9 @@ const cartSlice = createSlice({
                     totalPrice:newItem.price
                 })
             }
+            else {
+                
+            }
         }
     }
 })
