@@ -20,8 +20,8 @@ const cartSlice = createSlice({
                 })
             }
             else {
-                existingItem.quantity++,
-                    
+                existingItem.quantity++
+                existingItem.price
             }
         }
     }
