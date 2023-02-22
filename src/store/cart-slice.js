@@ -20,7 +20,8 @@ const cartSlice = createSlice({
                 })
             }
             else {
-                
+                existingItem.quantity++,
+                    
             }
         }
     }
