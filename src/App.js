@@ -7,7 +7,7 @@ import {useSelector} from 'react-redux'
   const showCart=useSelector(state=>state.ui.showCart)
   return (
     <Layout>
-      <Cart />
+      {showCart && <Cart />}
       <Products />
     </Layout>
   );
