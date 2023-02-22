@@ -7,6 +7,6 @@ const cartSlice = createSlice({
         totalQuantity:0
     },
     reducers: {
-        add
+        addItem()
     }
 })
