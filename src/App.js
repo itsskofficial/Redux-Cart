@@ -3,7 +3,8 @@ import Layout from './components/Layout/Layout';
 import Products from './components/Shop/Products';
 import useSelector from 
 
-function App() {
+  function App() {
+  const useSelector()
   return (
     <Layout>
       <Cart />
