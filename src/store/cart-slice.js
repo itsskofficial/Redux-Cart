@@ -25,7 +25,7 @@ const cartSlice = createSlice({
             }
         }
 
-        addItem(state,action) {
+        removeItem(state,action) {
             const newItem = action.payload
             const existingItem = state.items.find(item => item.id === newItem.id)
             if (!existingItem) {
