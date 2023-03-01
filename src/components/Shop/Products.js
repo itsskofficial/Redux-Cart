@@ -30,7 +30,7 @@ const Products = (props) => {
         {DUMMY_PRODUCTS.map((product) => {
           <ProductItem
           title={product.title}
-          price={6}
+          price={product.price}
           description='This is a first product - amazing!'
         />
       })}
