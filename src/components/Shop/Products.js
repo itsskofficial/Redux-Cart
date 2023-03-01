@@ -31,7 +31,7 @@ const Products = (props) => {
           <ProductItem
           title={product.title}
           price={product.price}
-          description='This is a first product - amazing!'
+          description={product.description}
         />
       })}
       </ul>
