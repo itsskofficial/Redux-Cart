@@ -3,7 +3,9 @@ import classes from './Cart.module.css';
 import CartItem from './CartItem';
 
 const DUMMY_ITEMS = {
-  {}
+  {
+  id: 'p1',
+  quantity}
 }
 
 const Cart = (props) => {
