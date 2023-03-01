@@ -27,13 +27,13 @@ const Products = (props) => {
     <section className={classes.products}>
       <h2>Buy your favorite products</h2>
       <ul>
-        {DUMMY_PRODUCTS.map((product) => {
+        {DUMMY_PRODUCTS.map((product) => (
           <ProductItem
           title={product.title}
           price={product.price}
           description={product.description}
         />
-      })}
+      ))}
       </ul>
     </section>
   );
