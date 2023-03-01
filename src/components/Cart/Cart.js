@@ -16,10 +16,10 @@ const DUMMY_ITEMS = [
   price: 5
   },
   {
-  id: 'p1',
+  id: 'p3',
   quantity:1,
   title:'Harry Potter',
-  price: 3
+  price: 7
   },
 ]
 
