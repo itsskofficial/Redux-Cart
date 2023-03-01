@@ -4,6 +4,8 @@ import classes from './ProductItem.module.css';
 const ProductItem = (props) => {
   const { title, price,id, description } = props;
 
+  const addToCartHandler = ()
+
   return (
     <li className={classes.item}>
       <Card>
