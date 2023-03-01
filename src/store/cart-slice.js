@@ -39,5 +39,5 @@ const cartSlice = createSlice({
     }
 })
 
-ex
+export const cartActions = cartSlice.actions
 export default cartSlice
