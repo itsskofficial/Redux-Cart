@@ -28,15 +28,12 @@ const Products = (props) => {
       <h2>Buy your favorite products</h2>
       <ul>
         {DUMMY_PRODUCTS.map((product) => {
-          <li>
-            Name : {product.title}
-        </li>
-      })}
-        <ProductItem
-          title='Test'
+          <ProductItem
+          title={product.title}
           price={6}
           description='This is a first product - amazing!'
         />
+      })}
       </ul>
     </section>
   );
