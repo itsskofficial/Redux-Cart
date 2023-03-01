@@ -10,7 +10,7 @@ const CartItem = (props) => {
   }
   
   const decrementItem = () => {
-    dispatch(dec)
+    dispatch(cartActions.removeItem(props.item.id))
   }
 
   return (
