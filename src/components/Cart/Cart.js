@@ -10,7 +10,10 @@ const DUMMY_ITEMS = [
   price: 3
   },
   {
-  Q
+  id: 'p2',
+  quantity:1,
+  title:'Percy Jacksonr',
+  price: 5
   },
 ]
 
