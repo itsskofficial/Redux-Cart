@@ -17,7 +17,8 @@ const DUMMY_PRODUCTS = [
   {
   id: 'p3',
   title:'DaVinci Code',
-  price: 7
+  price: 7,
+  description: 'Wow'
   },
 ]
 
