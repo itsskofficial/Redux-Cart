@@ -29,7 +29,7 @@ const Products = (props) => {
       <ul>
         {DUMMY_PRODUCTS.map((product) => {
           <li>
-            Name : {}
+            Name : {product.title}
         </li>
       })}
         <ProductItem
