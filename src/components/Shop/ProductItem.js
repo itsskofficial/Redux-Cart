@@ -3,8 +3,10 @@ import classes from './ProductItem.module.css';
 
 const ProductItem = (props) => {
   const { title, price,id, description } = props;
-
-  const addToCartHandler = ()
+  cons
+  const addToCartHandler = () => {
+    dispatch
+  }
 
   return (
     <li className={classes.item}>
