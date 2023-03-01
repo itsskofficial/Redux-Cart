@@ -9,7 +9,8 @@ const ProductItem = (props) => {
     dispatch(
       cartActions.addItemToCart({
         id,
-        title
+        title,
+        price
       })
     )
   }
