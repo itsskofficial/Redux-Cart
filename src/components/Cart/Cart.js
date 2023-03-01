@@ -15,6 +15,12 @@ const DUMMY_ITEMS = [
   title:'Percy Jacksonr',
   price: 5
   },
+  {
+  id: 'p1',
+  quantity:1,
+  title:'Harry Potter',
+  price: 3
+  },
 ]
 
 const Cart = (props) => {
