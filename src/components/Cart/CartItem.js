@@ -6,7 +6,7 @@ const CartItem = (props) => {
   const { title, quantity, total, price } = props.item;
   const dispatch = useDispatch()
   const incrementItem = () => {
-    dispatch(cartActions.addItem())
+    dispatch(cartActions.addItem({props.item}))
   }
 
   return (
