@@ -2,14 +2,14 @@ import Card from '../UI/Card';
 import classes from './Cart.module.css';
 import CartItem from './CartItem';
 
-const DUMMY_ITEMS = {
+const DUMMY_ITEMS = [
   {
   id: 'p1',
   quantity:1,
   title:'Harry Potter',
   price: 3
 },
-}
+]
 
 const Cart = (props) => {
   return (
