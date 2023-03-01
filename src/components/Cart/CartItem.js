@@ -9,7 +9,9 @@ const CartItem = (props) => {
     dispatch(cartActions.addItem({props.item}))
   }
   
-  const decrementItem = useDispatch()
+  const decrementItem = () => {
+    dispatch(dec)
+  }
 
   return (
     <li className={classes.item}>
