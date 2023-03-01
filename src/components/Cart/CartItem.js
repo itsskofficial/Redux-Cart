@@ -6,11 +6,11 @@ const CartItem = (props) => {
   const { title, quantity, total, price, id } = props.item;
   const dispatch = useDispatch()
   const incrementItem = () => {
-    dispatch(cartActions.addItem(props.CartItem))
+    dispatch(cartActions.addItem(props.item))
   }
   
   const decrementItem = () => {
-    dispatch(cartActions.removeItem(props.item.id))
+    dispatch(cartActions.removeItem(id))
   }
 
   return (
@@ -27,7 +27,7 @@ const CartItem = (props) => {
           x <span>{quantity}</span>
         </div>
         <div className={classes.actions}>
-          <button>-</button>
+          <button onc>-</button>
           <button>+</button>
         </div>
       </div>
