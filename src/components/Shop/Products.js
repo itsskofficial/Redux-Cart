@@ -6,12 +6,13 @@ const DUMMY_PRODUCTS = [
   id: 'p1',
   title:'Harry Potter',
   price: 3,
-  description:
+  description:'Amazing'
   },
   {
   id: 'p2',
   title:'Percy Jacksonr',
-  price: 5
+  price: 5,
+  description:'Wonderful'
   },
   {
   id: 'p3',
