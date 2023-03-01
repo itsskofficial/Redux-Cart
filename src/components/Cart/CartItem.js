@@ -8,6 +8,8 @@ const CartItem = (props) => {
   const incrementItem = () => {
     dispatch(cartActions.addItem({props.item}))
   }
+  
+  const decrementItem = useDispatch()
 
   return (
     <li className={classes.item}>
