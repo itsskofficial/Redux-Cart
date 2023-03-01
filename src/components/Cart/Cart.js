@@ -5,7 +5,8 @@ import CartItem from './CartItem';
 const DUMMY_ITEMS = {
   {
   id: 'p1',
-  quantity}
+  quantity:1,
+  title:'Harry'}
 }
 
 const Cart = (props) => {
