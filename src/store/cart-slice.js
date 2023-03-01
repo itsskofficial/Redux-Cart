@@ -38,3 +38,6 @@ const cartSlice = createSlice({
         }
     }
 })
+
+ex
+export default cartSlice
