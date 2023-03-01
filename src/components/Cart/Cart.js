@@ -7,7 +7,8 @@ const DUMMY_ITEMS = {
   id: 'p1',
   quantity:1,
   title:'Harry Potter',
-  price:3}
+    price: 3
+},
 }
 
 const Cart = (props) => {
