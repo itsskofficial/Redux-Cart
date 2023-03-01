@@ -27,7 +27,9 @@ const Products = (props) => {
     <section className={classes.products}>
       <h2>Buy your favorite products</h2>
       <ul>
-      {DUMMY_PRODUCTS.map()}
+        {DUMMY_PRODUCTS.map((product) => {
+        <li
+      })}
         <ProductItem
           title='Test'
           price={6}
