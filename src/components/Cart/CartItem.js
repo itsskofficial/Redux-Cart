@@ -4,7 +4,9 @@ import { cartActions } from '../../store/cart-slice';
 
 const CartItem = (props) => {
   const { title, quantity, total, price } = props.item;
-  const incrementItem = 
+  const incrementItem = () => {
+    dispatch(cartActions.addItem())
+  }
 
   return (
     <li className={classes.item}>
