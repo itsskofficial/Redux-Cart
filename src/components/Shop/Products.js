@@ -4,19 +4,17 @@ import classes from './Products.module.css';
 const DUMMY_PRODUCTS = [
   {
   id: 'p1',
-  quantity:1,
   title:'Harry Potter',
-  price: 3
+  price: 3,
+  description:
   },
   {
   id: 'p2',
-  quantity:1,
   title:'Percy Jacksonr',
   price: 5
   },
   {
   id: 'p3',
-  quantity:1,
   title:'DaVinci Code',
   price: 7
   },
