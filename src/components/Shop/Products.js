@@ -28,7 +28,9 @@ const Products = (props) => {
       <h2>Buy your favorite products</h2>
       <ul>
         {DUMMY_PRODUCTS.map((product) => {
-        <li
+          <li>
+            Name : {}
+        </li>
       })}
         <ProductItem
           title='Test'
