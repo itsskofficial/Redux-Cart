@@ -11,7 +11,7 @@ import { useEffect } from 'react';
     useEffect(() => {
       fetch('https://books-d57cf-default-rtdb.firebaseio.com/cart.json', {
         method: 'PUT',
-        body:  
+        body:JSON.stringify(cart)  
       })
     })
   return (
