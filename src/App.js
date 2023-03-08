@@ -5,7 +5,8 @@ import {useSelector} from 'react-redux'
 import { useEffect } from 'react';
 
   function App() {
-  const showCart=useSelector(state=>state.ui.showCart)
+    const showCart = useSelector(state => state.ui.showCart)
+    const cart = s
   return (
     <Layout>
       {showCart && <Cart />}
