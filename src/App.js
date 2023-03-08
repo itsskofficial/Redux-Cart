@@ -13,7 +13,8 @@ import { useEffect } from 'react';
         method: 'PUT',
         body:JSON.stringify(cart)  
       })
-    })
+    }, [cart])
+    
   return (
     <Layout>
       {showCart && <Cart />}
