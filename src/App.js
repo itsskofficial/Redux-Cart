@@ -8,7 +8,9 @@ import { useEffect } from 'react';
     const showCart = useSelector(state => state.ui.showCart)
     const cart = useSelector(state => state.cart)
     
-    useEffect((fe))
+    useEffect(() => {
+      fetch('https://books-d57cf-default-rtdb.firebaseio.com/cart.json')
+    })
   return (
     <Layout>
       {showCart && <Cart />}
