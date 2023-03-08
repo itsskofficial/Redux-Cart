@@ -6,7 +6,9 @@ import { useEffect } from 'react';
 
   function App() {
     const showCart = useSelector(state => state.ui.showCart)
-    const cart = useSelector(state=>state.cart)
+    const cart = useSelector(state => state.cart)
+    
+    useEffect((fe))
   return (
     <Layout>
       {showCart && <Cart />}
