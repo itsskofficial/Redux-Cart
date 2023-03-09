@@ -10,7 +10,8 @@ let isInitial = true
   function App() {
     const showCart = useSelector(state => state.ui.showCart)
     const cart = useSelector(state => state.cart)
-    const dispatch=useDispatch()
+    const dispatch = useDispatch()
+    const noti
     
     useEffect(() => {
       const sendCartData = async () => {
