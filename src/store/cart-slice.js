@@ -102,7 +102,7 @@ export const fetchCartData = () => {
 
         try {
             const cartData = await fetchData()
-            dispatch (re(cartData))
+            dispatch (cartActions.repla(cartData))
         }
         catch {
             dispatch(
