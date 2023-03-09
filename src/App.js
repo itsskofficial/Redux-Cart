@@ -3,6 +3,7 @@ import Layout from './components/Layout/Layout';
 import Products from './components/Shop/Products';
 import {useSelector,useDispatch} from 'react-redux'
 import { useEffect } from 'react';
+import { uiActions } from './store/ui-slice';
 
   function App() {
     const showCart = useSelector(state => state.ui.showCart)
@@ -11,7 +12,7 @@ import { useEffect } from 'react';
     
     useEffect(() => {
       const sendCartData = async () => {
-
+        uiActions.dis
         fetch('https://books-d57cf-default-rtdb.firebaseio.com/cart.json', {
           method: 'PUT',
           body: JSON.stringify(cart)
