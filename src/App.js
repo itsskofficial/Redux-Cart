@@ -64,7 +64,8 @@ let isInitial = true
   return (
     <Fragment>
       {notification && 
-      <Notification }
+        <Notification 
+      }
       <Layout>
         {showCart && <Cart />}
         <Products />
