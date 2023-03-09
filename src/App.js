@@ -66,8 +66,8 @@ let isInitial = true
       {notification &&
         <Notification
           status={notification.status}
-      title={notification.title}
-      message={notification.message}></Notification>
+          title={notification.title}
+          message={notification.message}></Notification>} 
       <Layout>
         {showCart && <Cart />}
         <Products />
