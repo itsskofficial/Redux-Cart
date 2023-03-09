@@ -9,7 +9,13 @@ import { useEffect } from 'react';
     const cart = useSelector(state => state.cart)
     const dispatch=useDispatch()
     
-    useEffect(const, [cart])
+    useEffect(
+      const sendCartData = () => {
+        fetch('https://books-d57cf-default-rtdb.firebaseio.com/cart.json', {
+          method: 'PUT',
+          body:JSON.stringify(cart)  
+        })
+      }, [cart])
     
   return (
     <Layout>
