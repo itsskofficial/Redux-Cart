@@ -99,6 +99,13 @@ export const fetchCartData = () => {
             data = response.json()
             return data
         }
+
+        try {
+            fetchData()
+        }
+        catch {
+            
+        }
     }
 }
 
