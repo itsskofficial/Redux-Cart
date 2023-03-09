@@ -108,7 +108,7 @@ export const fetchCartData = () => {
                 uiActions.showNotification({
                   status: 'error',
                   title: 'Error!',
-                  message: 'Sending cart data failed!',
+                  message: 'Fetching cart data failed!',
                 })
               );
             
