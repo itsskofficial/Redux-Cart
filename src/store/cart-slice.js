@@ -104,7 +104,13 @@ export const fetchCartData = () => {
             const cartData = await fetchData()
         }
         catch {
-            dispatch()
+            dispatch(
+                uiActions.showNotification({
+                  status: 'error',
+                  title: 'Error!',
+                  message: 'Sending cart data failed!',
+                })
+              );
             
         }
     }
