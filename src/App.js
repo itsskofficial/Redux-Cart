@@ -62,10 +62,13 @@ let isInitial = true
     }, [cart, dispatch]);
     
   return (
-    <Layout>
-      {showCart && <Cart />}
-      <Products />
-    </Layout>
+    <Fragment>
+      <Layout>
+        {showCart && <Cart />}
+        <Products />
+      </Layout>
+    </Fragment>
+    
   );
 }
 
