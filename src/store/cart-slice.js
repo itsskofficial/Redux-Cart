@@ -90,8 +90,8 @@ export const sendCartData = (cart) => {
 
 export const fetchCartData = () => {
     return (dispatch) => {
-        const fetchData = () => {
-            
+        const fetchData = async () => {
+
         }
     }
 }
