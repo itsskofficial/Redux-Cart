@@ -104,6 +104,7 @@ export const fetchCartData = () => {
             const cartData = await fetchData()
         }
         catch {
+            dispatch()
             
         }
     }
