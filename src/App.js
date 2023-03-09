@@ -17,7 +17,8 @@ let isInitial = true
 
     useEffect(() => {
       dispatch(fetchCartData())
-    },[dispatch]
+    }, [dispatch])
+    
     useEffect(() => {
       if (isInitial) {
         isInitial = false;
