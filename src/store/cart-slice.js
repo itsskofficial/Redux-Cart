@@ -96,7 +96,8 @@ export const fetchCartData = () => {
                 throw new Error('Could not fetch cart data')
             }
 
-            da
+            data = response.json()
+            return data
         }
     }
 }
