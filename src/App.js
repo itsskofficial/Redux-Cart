@@ -5,6 +5,8 @@ import {useSelector,useDispatch} from 'react-redux'
 import { useEffect } from 'react';
 import { uiActions } from './store/ui-slice';
 
+let isInitial = true
+
   function App() {
     const showCart = useSelector(state => state.ui.showCart)
     const cart = useSelector(state => state.cart)
