@@ -91,6 +91,7 @@ export const sendCartData = (cart) => {
 export const fetchCartData = () => {
     return (dispatch) => {
         const fetchData = async () => {
+            const response = await fetch(
 
         }
     }
