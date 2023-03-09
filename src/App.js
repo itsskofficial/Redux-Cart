@@ -27,7 +27,6 @@ let isInitial = true
       if (cart.changed) {
         dispatch(sendCartData(cart));
       }
-      
     }, [cart, dispatch]);
     
     // useEffect(() => {
