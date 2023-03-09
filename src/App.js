@@ -9,7 +9,7 @@ import { useEffect } from 'react';
     const cart = useSelector(state => state.cart)
     const dispatch=useDispatch()
     
-    useEffect(
+    useEffect(()=>{
       const sendCartData = () => {
         fetch('https://books-d57cf-default-rtdb.firebaseio.com/cart.json', {
           method: 'PUT',
