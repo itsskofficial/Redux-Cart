@@ -65,7 +65,9 @@ let isInitial = true
     <Fragment>
       {notification && 
         <Notification 
-      status=notification.status,}
+          status=notification.status,
+      title:notification.title,
+      }
       <Layout>
         {showCart && <Cart />}
         <Products />
