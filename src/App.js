@@ -16,6 +16,9 @@ let isInitial = true
     const notification = useSelector(state=>state.ui.notification)
 
     useEffect(() => {
+      
+    })
+    useEffect(() => {
       if (isInitial) {
         isInitial = false;
         return;
