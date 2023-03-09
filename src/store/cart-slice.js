@@ -89,7 +89,7 @@ export const sendCartData = (cart) => {
   };
 
 export const fetchData = (dispatch) => {
-    
+    const fet
 }
 
 export const cartActions = cartSlice.actions
