@@ -10,8 +10,8 @@ import { useEffect } from 'react';
     const dispatch=useDispatch()
     
     useEffect(() => {
-      const sendCartData = () => {
-        
+      const sendCartData = async () => {
+
         fetch('https://books-d57cf-default-rtdb.firebaseio.com/cart.json', {
           method: 'PUT',
           body: JSON.stringify(cart)
