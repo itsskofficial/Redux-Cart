@@ -7,7 +7,9 @@ const uiSlice=createSlice({
         toggle(state) {
             state.showCart=!state.showCart
         }
-        
+
+        notification
+
     }
 })
 
