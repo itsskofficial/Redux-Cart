@@ -24,7 +24,9 @@ let isInitial = true
         isInitial = false;
         return;
       }
-  
+      if (cart.changed) {
+        
+      }
       dispatch(sendCartData(cart));
     }, [cart, dispatch]);
     
