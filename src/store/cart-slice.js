@@ -89,14 +89,14 @@ export const sendCartData = (cart) => {
   };
 
 export const fetchCartData = () => {
-    return (dispatch) => {
+    return async (dispatch) => {
         const fetchData = async () => {
             const response = await fetch('https://react-http-6b4a6.firebaseio.com/cart.json')
             if (!response.ok) {
                 throw new Error('Could not fetch cart data')
             }
 
-            data = response.json()
+            const data = response.json()
             return data
         }
 
