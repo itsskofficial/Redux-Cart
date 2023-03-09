@@ -12,8 +12,8 @@ import { uiActions } from './store/ui-slice';
     
     useEffect(() => {
       const sendCartData = async () => {
-        dispat
-        uiActions
+        dispatch(
+        uiActions.showNotific
         fetch('https://books-d57cf-default-rtdb.firebaseio.com/cart.json', {
           method: 'PUT',
           body: JSON.stringify(cart)
