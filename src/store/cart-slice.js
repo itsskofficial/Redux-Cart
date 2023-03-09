@@ -88,7 +88,7 @@ export const sendCartData = (cart) => {
     };
   };
 
-ex
+export const fetchData = ()
 
 export const cartActions = cartSlice.actions
 export default cartSlice
