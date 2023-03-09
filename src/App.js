@@ -7,6 +7,7 @@ import { useEffect } from 'react';
   function App() {
     const showCart = useSelector(state => state.ui.showCart)
     const cart = useSelector(state => state.cart)
+    const dispatch=useDispatch()
     
     useEffect(() => {
       fetch('https://books-d57cf-default-rtdb.firebaseio.com/cart.json', {
