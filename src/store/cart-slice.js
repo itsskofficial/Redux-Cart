@@ -111,7 +111,7 @@ export const fetchCartData = () => {
             const cartData = await fetchData()
             dispatch (cartActions.replaceCart({
               items: cartData.items || [],
-              total
+              totalQuantity : cartData.totalQuantity
             }))
         }
         catch {
