@@ -110,7 +110,7 @@ export const fetchCartData = () => {
         try {
             const cartData = await fetchData()
             dispatch (cartActions.replaceCart({
-              items:
+              items:car
             }))
         }
         catch {
